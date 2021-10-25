@@ -2,13 +2,13 @@ const path = require('path');
 
 module.exports = {
     output: {
-        path: path.join(_dirname, '/dist'),
+        path: path.join(__dirname, '/dist'),
         filename: 'index.bundle.js'
 
     },
     devServer: {
         port: 3010,
-        watchContentBase: true
+        ContentBase: true,
     },
     module: {
         rules: [
