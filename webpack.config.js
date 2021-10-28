@@ -8,7 +8,6 @@ module.exports = {
     },
     devServer: {
         port: 3010,
-        ContentBase: true,
     },
     module: {
         rules: [
